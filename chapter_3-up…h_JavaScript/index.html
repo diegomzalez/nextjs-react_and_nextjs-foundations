@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="app"></section>
+    <script type="text/javascript">
+      // Select the section element with "app" id.
+      const app = document.getElementById("app");
+      // Create a new H1 element.
+      const h1 = document.createElement("h1");
+      // Create a new text node for the new H1 element.
+      const text = "Develop. Preview. Ship.";
+      const h1Content = document.createTextNode(text);
+      // Append the text to the H1 element.
+      h1.appendChild(h1Content);
+      // Place the H1 element inside the app.
+      app.appendChild(h1);
+    </script>
+  </body>
+</html>
